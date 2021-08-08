@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 //新路由
-class NewRoute extends StatelessWidget {
+class routeClass extends StatelessWidget {
 
   void _incrementCounter(){
 
@@ -18,6 +18,7 @@ class NewRoute extends StatelessWidget {
         child: Text("This is new route"),
       ),
        floatingActionButton: FloatingActionButton(
+        
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: Icon(Icons.add),
